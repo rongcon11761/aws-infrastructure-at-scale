@@ -1,0 +1,34 @@
+Estimate summary									
+Upfront cost	Monthly cost	Total 12 months cost	Currency						
+0	18681.46	224177.52	USD						
+		* Includes upfront cost							
+									
+									
+Detailed Estimate									
+Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Status	Configuration summary
+My Estimate	US East (N. Virginia)		Amazon EC2 	0	1040.177	12482.12	USD		"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (m4.10xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate	US East (N. Virginia)		Amazon EC2 	0	1040.177	12482.12	USD		"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (m4.10xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate	US East (N. Virginia)		Amazon RDS for MySQL	0	10067	120804	USD		"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Quantity (2), Instance type (db.m5.8xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate	US East (N. Virginia)		S3 Standard	0	230	2760	USD		S3 Standard storage (10000 GB per month)
+My Estimate	US East (N. Virginia)		Data Transfer	0	0	0	USD		
+My Estimate	US East (N. Virginia)		Amazon Route 53	0	1413.5	16962	USD		"Hosted Zones (2), Number of Elastic Network Interfaces (10)"
+My Estimate	US East (N. Virginia)		Amazon CloudWatch	0	131.403	1576.84	USD		"Number of Metrics (includes detailed and custom metrics) (100), GetMetricData: Number of metrics requested (100), Standard Logs: Data Ingested (100 GB), Number of Lambda functions (10), Logs Delivered to CloudWatch Logs: Data Ingested (100 GB), GetMetricWidgetImage: Number of metrics requested (100), Expected Logs Data scanned (100 GB)"
+My Estimate	US East (N. Virginia)		Amazon ElastiCache	0	996.45	11957.4	USD		"Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Nodes (3), Instance type (cache.r4.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Memcached), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+My Estimate	US East (N. Virginia)		AWS Data Transfer	0	409.6	4915.2	USD		"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (20 TB per month), Data transfer cost (409.6)"
+My Estimate	US East (N. Virginia)		Application Load Balancer	0	441.65	5299.8	USD		Number of Application Load Balancers (2)
+My Estimate	US East (N. Virginia)		Amazon API Gateway	0	1280	15360	USD		"REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), HTTP API requests units (millions), Average size of each request (34 KB), Average message size (32 KB), Requests (1000 per month), Requests (100 per month)"
+My Estimate	US East (N. Virginia)		AWS Web Application Firewall (WAF)	0	500	6000	USD		Number of Web Access Control Lists (Web ACLs) utilized (100 per month)
+My Estimate	US East (N. Virginia)		AWS Network Firewall	0	1131.5	13578	USD		"Number of AWS Network Firewall endpoints (2), Usage per endpoint (730 hours), Advanced Inspection usage per endpoint (730 hours)"
+									
+									
+									
+Acknowledgement									
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."									
+									
+									
+Increased RDS size to m5.8xlarge									
+Increased EC2 instances size to m4.10xlarge (2 EC)									
+Add AWS Network Firewall									
+Add AWS Web Application Firewall (WAF)									
+Increased S3 storage									
+Route 53 - increased number of Elastic Network Instances from 5 to 10									
